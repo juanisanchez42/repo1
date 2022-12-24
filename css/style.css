@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.bold{
+    font-weight: 500;
+}
+body{
+    background-color: rgb(255,255,240);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    
+}
+
+h1{
+    color: rgb(205, 129, 48);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+h2,h3{
+
+    color: rgb(205, 129, 48);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+p{
+    color: rgb(205, 129, 48);
+}
+
+section form label{
+    color: rgb(205, 129, 48);
+}
+
+.background{
+    background-color: rgb(205, 129, 48);
+}
+
+.crema{
+    color: rgb(255, 255, 240);
+}
+
+.choco{
+    color: rgb(205, 129, 48);
+}
+
+nav{
+       background-color: rgb(255, 255, 240);
+       padding: 8px 20px;
+       position: sticky;
+       top: 0;
+       left: 0;
+       width: 100%;
+       box-sizing: border-box;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       font-family:'Roboto', sans-serif;
+}
+
+nav ul{
+       display: flex;
+       margin-left: 100px;
+}
+
+nav ul li{
+       list-style: none;
+       margin-right: 30px;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul li a{
+    color: rgb(205, 129, 48);
+    text-decoration: none;
+}
+
+.tamaño{
+    width: 300px; 
+    height: 300px;
+}
+
+.fotos{
+    width: 250px;
+    height: 250px;
+}
+
+.nosotras{
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    padding: 30px 30px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+.destacados{
+    width: 100%;
+    height: auto;
+    margin: 20px 100px;
+    
+}
+.espacio{
+    width: 100%;
+    height: auto;
+    margin-top: 30px; 
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#productos .destacados img{
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+#productos .destacados{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+#productos figure{
+    color: rgb(205, 129, 48);
+    font-weight: 600;
+    
+}
+
+#productos figure figcaption{
+    font-size: 1rem;
+    padding: 10px 0;
+    background-color: rgb(205, 129, 48);
+    color: rgb(255, 255, 240);
+}
+
+#productos figure p{
+    font-size: 1rem;
+    padding: 10px 0;
+    background-color: rgb(205, 129, 48);
+    color: rgb(255, 255, 240);
+}
+
+.wrap{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+.degrade{
+    background: rgb(251,244,238);
+background: linear-gradient(180deg, rgba(251,244,238,1) 0%, rgba(222,194,173,1) 70%, rgba(147,96,62,1) 100%);
+}
+
+.scale:hover{
+    cursor: pointer;
+    transition: all 1seg;
+    transform: scale(1.03);
+}
+
